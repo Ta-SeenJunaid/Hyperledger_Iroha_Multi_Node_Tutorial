@@ -40,7 +40,7 @@ services:
         target: /var/lib/postgresql/data
 
   iroha1:
-    image: hyperledger/iroha:1.2.1
+    image: hyperledger/iroha:1.1.1
     container_name: iroha1
     restart: unless-stopped  
     depends_on:
@@ -76,7 +76,7 @@ services:
         target: /var/lib/postgresql/data
 
   iroha2:
-    image: hyperledger/iroha:1.2.1
+    image: hyperledger/iroha:1.1.1
     container_name: iroha2
     restart: unless-stopped  
     depends_on:
@@ -112,7 +112,7 @@ services:
         target: /var/lib/postgresql/data
 
   iroha3:
-    image: hyperledger/iroha:1.2.1
+    image: hyperledger/iroha:1.1.1
     container_name: iroha3
     restart: unless-stopped  
     depends_on:
